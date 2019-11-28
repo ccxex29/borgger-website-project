@@ -71,6 +71,7 @@ body {
 
 .font-header {
   color: #454D00;
+  text-shadow: none;
   transition: ease-in-out color .15s;
 }
 .font-header:hover {
@@ -122,6 +123,7 @@ hr.divider-footer:after {
 	height: 75%;
 	background-color: #F1B06A;
 }
+
 
 /*
  * Extra utilities

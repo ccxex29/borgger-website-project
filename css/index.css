@@ -1,0 +1,39 @@
+.pricing {
+	 bottom: 20px; 
+	 position: absolute;
+}
+
+.custom-card {
+	height: 25rem; 
+	background-color: #FFF3E3; 
+	max-height: 25rem; 
+	min-height: 28rem; 
+	max-width: 18rem; 
+	min-width: 18rem;
+}
+
+.btn-outline-order {
+	color: #59330B;
+	background-color: transparent;
+	border-color: #59330B;
+}
+.btn-outline-order:hover {
+	background-color: #59330B;
+	border-color: #59330B;
+	color: #fff;
+}
+
+.btn-outline-order:active {
+	background-color: #59330B;
+	border-color: #59330B;
+	color: #fff;
+}
+
+.btn-outline-order:focus .btn-outline-order.focus {
+	box-shadow: 0 0 0 0.2rem rgba(137, 96, 54, 0.5);
+}
+
+.btn-outline-order:not(:disabled):not(.disabled):active:focus, .btn-outline-order:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-order.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(137, 96, 54, 0.5);
+}

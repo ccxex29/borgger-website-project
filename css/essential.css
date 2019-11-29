@@ -83,15 +83,6 @@ body {
 	max-width: 100%;
 }
 
-.btn-outline-order {
-	color: #59330B;
-	border-color: #59330B;
-}
-.btn-outline-order:hover {
-	background-color: #59330B;
-	border-color: #59330B;
-	color: #fff;
-}
 
 hr.divider-footer {
 	padding: 40px 0 0px 0;
@@ -140,4 +131,49 @@ hr.divider-footer:after {
   }
 }
 
+<<<<<<< Updated upstream
+=======
+.showdropdownmenuheader {
+	right: 15px;
+	position: absolute;	
+}
+
+.custom-hd-button {
+	color: white;
+	background-color: #59330B;
+	border-color: #59330B;
+	text-shadow: none;
+}
+
+.custom-hd-button:hover {
+	color: white;
+	background-color: #6B3B09;
+	border-color: #8E6131;
+}
+
+.custom-hd-button:active {
+	color: white;
+	background-color: #6B3B09;
+	border-color: #8E6131;
+}
+
+.custom-hd-button:focus, .custom-hd-button.focus {
+	box-shadow: 0 0 0 0.2rem rgba(142, 97, 49, 0.5);
+}
+
+
+.custom-hd-button:not(:disabled):not(.disabled):active, .custom-hd-button:not(:disabled):not(.disabled).active,
+.show > .custom-hd-button.dropdown-toggle {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.custom-hd-button:not(:disabled):not(.disabled):active:focus, .custom-hd-button:not(:disabled):not(.disabled).active:focus,
+.show > .custom-hd-button.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(142, 97, 49, 0.5);
+}
+
+
+>>>>>>> Stashed changes
 .overflow-hidden { overflow: hidden; }

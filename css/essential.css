@@ -129,13 +129,21 @@ hr.divider-footer:after {
     -ms-flex: 1;
     flex: 1;
   }
+  .showdropdownmenuheader {
+  	display: none;
+  }
 }
 
-<<<<<<< Updated upstream
-=======
+/*<<<<<<< Updated upstream
+=======*/
 .showdropdownmenuheader {
 	right: 15px;
 	position: absolute;	
+}
+
+.showdropdownmenuheader a:hover {
+	background-color: #59330B;
+	color: white;
 }
 
 .custom-hd-button {
@@ -175,5 +183,5 @@ hr.divider-footer:after {
 }
 
 
->>>>>>> Stashed changes
+/*>>>>>>> Stashed changes*/
 .overflow-hidden { overflow: hidden; }

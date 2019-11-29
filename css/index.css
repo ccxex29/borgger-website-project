@@ -5,22 +5,29 @@
 
 .custom-card {
 	height: 25rem; 
-	background-color: #FFF3E3; 
-	max-height: 25rem; 
-	min-height: 28rem; 
-	max-width: 18rem; 
-	min-width: 18rem;
+	background-color: #FFF3E3 !important;
+	border-color: #59330B !important;
+	/*box-shadow: transparent;*/
+	filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.6));
+	/*box-shadow: 0 0 10px 10px #59330B;*/
+	max-height: 25rem !important; 
+	min-height: 28rem !important;
+	max-width: 18rem !important; 
+	min-width: 18rem !important;
 }
 
 .btn-outline-order {
-	color: #59330B;
-	background-color: transparent;
-	border-color: #59330B;
+	color: #59330B !important;
+	background-color: transparent !important;
+	border-color: #59330B !important;
+	box-shadow: 1px 1px 3px 0 #59330B;
 }
+
+
 .btn-outline-order:hover {
-	background-color: #59330B;
-	border-color: #59330B;
-	color: #fff;
+	background-color: #59330B !important;
+	border-color: #59330B !important;
+	color: #fff !important;
 }
 
 .btn-outline-order:active {

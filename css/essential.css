@@ -130,7 +130,7 @@ hr.divider-footer:after {
     flex: 1;
   }
   .showdropdownmenuheader {
-  	display: none;
+  	display: none !important; 
   }
 }
 

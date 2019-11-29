@@ -73,6 +73,18 @@ body {
   padding: 100px 300px 0 300px;
 }
 
+.shadow-contact {
+  box-shadow: 3px 5px 18px 0px rgba(0, 0, 0, 0.6);
+}
+
+.custom-contact {
+  width:140px; 
+  height:140px; 
+  background:#777; 
+  color:#777; 
+  overflow: hidden;
+  margin-bottom: 24px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

@@ -1,0 +1,13 @@
+.pricing {
+	 bottom: 20px; 
+	 position: absolute;
+}
+
+.custom-card {
+	height: 25rem; 
+	background-color: #FFF3E3; 
+	max-height: 25rem; 
+	min-height: 28rem; 
+	max-width: 18rem; 
+	min-width: 18rem;
+}

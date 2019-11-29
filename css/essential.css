@@ -138,6 +138,10 @@ hr.divider-footer:after {
     -ms-flex: 1;
     flex: 1;
   }
+  .showdropdownmenuheader {
+		display: none;
+	}
 }
+
 
 .overflow-hidden { overflow: hidden; }

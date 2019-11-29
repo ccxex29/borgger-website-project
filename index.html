@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Add-on CSS -->
     <link rel="stylesheet" type="text/css" href="css/essential.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -21,7 +22,7 @@
     <link rel="icon" type="text/css" href="img/borgger-notext.svg">
   </head>
   <body>
-    <nav class="site-header sticky-top py-1" style="background-color: #F1B06A;">
+    <nav class="site-header sticky-top py-1" style="background-color: #F1B06A;">;
       <div class="container d-flex flex-column flex-md-row justify-content-between" style="padding-top: 5px; padding-bottom: 5px">
         <div class="justify-content-start">
           <a class="" href="index.html">
@@ -29,6 +30,15 @@
             <img src="img/borgger-notext.svg" width="40" height="40" alt="">
             <img src="img/borgger-textonly.svg" height="30" alt="" style="margin-left: 10px;">
           </a>
+        </div>
+        <div class="dropdown showdropdownmenuheader">
+          <button class="btn btn-secondary dropdown-toggle justify-content-start" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Links
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="contact.html">Contact Us</a>
+          </div>
         </div>
         <div class="justify-content-end">
           <a class="py-2 d-none d-md-inline-block font-weight-bolder font-header" href="about.html">About</a>
@@ -82,7 +92,7 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <!-- {% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" %} -->
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-1.jpg" class="card-img-top" alt="Burger with fries" style="margin: 0 0 0 0; height: 195px;">
@@ -95,13 +105,13 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$3.99</small>
+                <small class="text-muted pricing">$3.99</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-2.jpg" class="card-img-top" alt="Burger" style="margin: -150px 0 0 0px; width: 348px; height: 420px;">
               
@@ -114,13 +124,13 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$3.19</small>
+                <small class="text-muted pricing">$3.19</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-3.jpg" class="card-img-top" alt="Burger" style="margin: -140px 0 0 0px; width: 348px;height: 440px;">
             </div>
@@ -132,14 +142,14 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$2.49</small>
+                <small class="text-muted pricing">$2.49</small>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-4.jpg" class="card-img-top" alt="Burger" style="margin: -100px 0 0 0px; height: 390px">
             </div>
@@ -151,13 +161,13 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$2.19</small>
+                <small class="text-muted pricing">$2.19</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-5.jpg" class="card-img-top" alt="Burger" style="margin: -40px 0 0 0px; height: 300px">
             </div>
@@ -169,13 +179,13 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$2.79</small>
+                <small class="text-muted pricing">$2.79</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm" style="height: 25rem; background-color: #FFF3E3; max-height: 25rem; min-height: 25rem; max-width: 18rem; min-width: 16rem;">
+          <div class="card mb-4 shadow-sm custom-card">
             <div style="height: 12rem; overflow: hidden; min-height: 12rem; max-height: 12rem;">
               <img src="img/stock/stock-6.jpg" class="card-img-top" alt="Burger" style="margin: -30px 0 0 0px; height: 270px">
             </div>
@@ -187,7 +197,7 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div> -->
-                <small class="text-muted">$2.49</small>
+                <small class="text-muted pricing">$2.49</small>
               </div>
             </div>
           </div>

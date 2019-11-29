@@ -61,12 +61,12 @@ body {
 }
 
 .burger-bg {
-  background-image: url('../img/burger-bg.png');
+  background-image: url('../img/burger-bg.png') ;
   /*background-size: cover;*/
-  background-repeat: no-repeat;
+  background-repeat: no-repeat ;
   /*background-position: center;*/
-  background-attachment: fixed;
-  position: absolute;
+  background-attachment: fixed ;
+  position: absolute ;
 }
 
 .font-header {

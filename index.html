@@ -80,13 +80,31 @@
             border-color: #343a40;
           }
         </style> -->
-        <button role="button" type="button" class="btn btn-warning btn-outline-order" style="margin-top: 10px;"
+        <!-- <button role="button" type="button" class="btn btn-warning btn-outline-order" style="margin-top: 10px;"
         data-toggle="popover" data-container="body" data-placement="bottom" data-html="true"
         title="Thank you!" data-content="
         We really appreciate your attempt on ordering our flagship dishes. <br/>
         However, we must apologize as we don't have our business running at the moment.
-        ">
-      Order Borgger Now!</button>
+        "> -->
+        <button role="button" type="button" class="btn btn-warning btn-outline-order" style="margin-top: 10px;"
+        data-toggle="modal" data-target="#modalAd">
+          Take a Look at Borgger
+        </button>
+        <div class="modal fade" id="modalAd" tabindex="-1" role="dialog" aria-labelledby="borggerAd" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content" style="background-color: #FFF3E3 !important; border-radius: 10px;">
+              <div class="modal-body d-flex">
+                <iframe width="1120" height="630" 
+                        src="https://www.youtube.com/embed/s1ZFEwnZWE8&vq=360p" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        class="">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- <div class="shadow-sm d-none d-md-block"> -->
     </div>
@@ -319,7 +337,6 @@
       </div>
     </footer>
   </div>
-
-    
+    <script type="text/javascript" src="essential.js"></script>
   </body>
 </html>
